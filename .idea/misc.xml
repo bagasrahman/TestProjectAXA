@@ -3,7 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Documents/Android/TestProject/app/src/main/res/layout/data_layout.xml" value="0.1" />
+        <entry key="..\:/Documents/Android/TestProject/app/src/main/res/drawable/ic_baseline_search_24.xml" value="0.1115" />
+        <entry key="..\:/Documents/Android/TestProject/app/src/main/res/layout/data_layout.xml" value="0.16666666666666666" />
         <entry key="..\:/Documents/Android/TestProject/app/src/main/res/layout/data_layout_item.xml" value="0.14130434782608695" />
         <entry key="..\:/Documents/Android/TestProject/app/src/main/res/layout/root_activity_layout.xml" value="0.14130434782608695" />
         <entry key="..\:/Documents/Android/TestProject/common/src/main/res/layout/dummy.xml" value="0.14130434782608695" />

@@ -1,5 +1,7 @@
 package com.indocyber.testproject.fragment
 
+
+import androidx.core.widget.addTextChangedListener
 import androidx.fragment.app.viewModels
 import com.indocyber.common.BaseFragment
 import com.indocyber.testproject.R
@@ -16,6 +18,11 @@ class DataFragment : BaseFragment<DataViewModel, DataLayoutBinding>(){
     override fun initBinding(binding: DataLayoutBinding) {
         super.initBinding(binding)
         binding.rvData.adapter = adapter
+        observeLiveData()
 
+        binding.search.addTextChangedListener {
+            val data = vm.filter(it.toString())
+            adapter.submitData(data)
+        }
     }
 }

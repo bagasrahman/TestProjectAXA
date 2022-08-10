@@ -1,8 +1,11 @@
 package com.indocyber.common.entity
 
 
+import android.os.Parcelable
 import com.google.gson.annotations.SerializedName
+import kotlinx.parcelize.Parcelize
 
+@Parcelize
 data class ResponseItem(
     @SerializedName("albumId")
     val albumId: Int,
@@ -14,4 +17,4 @@ data class ResponseItem(
     val title: String,
     @SerializedName("url")
     val url: String
-)
+): Parcelable
